@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Película</string>
+
+    <string name="vote">%1$s / 10</string>
+    <string name="trailers">Remolques: </string>
+    <string name="reviews">Opiniones:</string>
+
+    <string name="no_internet_error_message">No hay conexión a internet!</string>
+    <string name="no_movies">¡No hay películas!</string>
+    <string name="no_favorite">No hay películas añadidas a tus favoritos todavía!</string>
+
+    <string name="action_popular">Popular</string>
+    <string name="action_top_rated">Los más valorados</string>
+    <string name="action_favorite">Favorito</string>
+
+    <string name="add_favorite">Agregar a "Favoritos</string>
+    <string name="remove_favorite">Eliminar de favorito</string>
+</resources>

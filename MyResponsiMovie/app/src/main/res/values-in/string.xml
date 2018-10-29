@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Film</string>
+
+    <string name="vote">%1$s / 10</string>
+    <string name="trailers">Cuplikan: </string>
+    <string name="reviews">Ulasan: </string>
+
+    <string name="no_internet_error_message">Tidak ada koneksi internet!</string>
+    <string name="no_movies">Tidak ada film!</string>
+    <string name="no_favorite">Belum ada film yang ditambahkan ke favorit Anda!</string>
+
+    <string name="action_popular">Populer</string>
+    <string name="action_top_rated">Peringkat Teratas</string>
+    <string name="action_favorite">Favorit</string>
+
+    <string name="add_favorite">Tambahkan Ke Favorit</string>
+    <string name="remove_favorite">Hapus Dari Favorit</string>
+</resources>

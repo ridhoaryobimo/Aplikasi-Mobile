@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ridhoaryobimo.PAM.ResponsiMovie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Required permission to check licensing. -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <application
+        android:name="ridhoaryobimo.PAM.ResponsiMovie.util.ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RIDHOMOVIE"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="ridhoaryobimo.PAM.ResponsiMovie.movieslist.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ridhoaryobimo.PAM.ResponsiMovie.moviepreview.MoviePreviewActivity"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity android:name="ridhoaryobimo.PAM.ResponsiMovie.moviedetails.DetailsActivity"
+            android:parentActivityName="ridhoaryobimo.PAM.ResponsiMovie.movieslist.MainActivity"/>
+    </application>
+
+</manifest>
