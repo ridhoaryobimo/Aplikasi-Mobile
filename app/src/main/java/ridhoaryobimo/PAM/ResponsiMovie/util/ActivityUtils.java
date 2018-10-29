@@ -21,7 +21,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
 /**
- * Created by ShehabSalah on 1/8/18.
  * This provides methods to help Activities load their UI.
  */
 public class ActivityUtils {
